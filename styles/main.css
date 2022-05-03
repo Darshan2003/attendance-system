@@ -1,0 +1,110 @@
+body{
+    font-family: 'Courier New', Courier, monospace;    
+}
+
+.pill{
+    border-radius: 20px;
+}
+.long{
+    width: 5rem;
+}
+.xs-logo{
+    width: 30px;
+    height: 30px;
+}
+.sm-logo{
+    width: 50px;
+    height: 50px;
+}
+.selected{
+    background-color: #f3c92088;
+}
+.head-title{
+    font-size: 2.5rem;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100vw !important;
+}
+
+.features{
+    background-color: #f3ca20;
+}
+.container{
+    width: 30rem;
+    margin-top: 7%;
+}
+h1{
+    font-size: 3rem;
+}
+.nav-item{
+    width: 80%;
+    margin: auto;
+}
+.nav-item:last-child{
+    margin-bottom: 8px;
+}
+.nav-item:hover{
+    background-color: #f3ca20;
+}
+.collapsing
+{
+    transition:height 0.35s ease !important;
+}
+.navbar-toggler{
+    box-shadow: none !important;
+}
+.modal-content{
+    margin-top: 37vh;
+}
+.change-input{
+    width: 11rem !important;
+}
+@media print {
+
+    body * {
+        visibility: hidden;
+    }
+
+    .card * {
+        visibility: visible;
+    }
+    .card{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .export, .print, .search, .filter{
+        visibility: hidden;
+    }
+ 
+    .table-striped > tbody > tr:nth-of-type(2n+1) {
+        --bs-table-accent-bg: white;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .container{
+        width: 100vw !important;
+    }
+    .res-search{
+        height: 4rem;
+    }
+
+    .res-filter{
+        float: none !important;
+        margin: 0 auto;
+        max-width: none !important;
+        width: 10rem;
+    }
+    .table{
+        overflow-x: auto;
+    }
+
+    .res-table{
+        overflow-x: auto;
+    }
+}

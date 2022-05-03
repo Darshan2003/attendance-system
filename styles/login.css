@@ -1,0 +1,47 @@
+
+body{
+    
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url(../Images/background.jpg);
+    background-size: 100vw 100vh, 100vw; */
+    /* background-repeat: no-repeat; */
+    background-color: #1f1c1c;
+    font-family: 'Varela Round',Arial, Helvetica, sans-serif;
+}
+/* @media screen and (max-width: 1020px) {
+    body{
+        background-size: 100vw 100vh, auto 100vh;
+    }
+} */
+
+.card-custom{
+    margin-top: 9rem; 
+    width: 24rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 0px;
+}
+.card-b-custom{
+    width: 21rem;
+}
+@media screen and (max-width:400px) {
+    .card-custom{ 
+        width: 20rem;
+    }
+    .card-b-custom{
+        width: 19rem;
+    }
+}
+.form-control:focus {
+    border-color: #f3ca20;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.075), 0 0 10px #f3ca20;
+}
+.field{
+    position: relative;
+}
+.field i{
+    position: absolute;
+    color: black;
+    font-size: large;
+    cursor: pointer;
+    top: 38px;
+    right: 10px;
+}
