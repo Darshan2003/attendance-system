@@ -1,6 +1,6 @@
 # Attendance Management System in PHP 
 
-> YOU MUST A BASIC UNDERSTANDING OF HOW TO RUN PHP PROJECTS
+> YOU MUST HAVE A BASIC UNDERSTANDING OF HOW TO RUN PHP PROJECTS
 
 ### Steps to use:
 - Download the zip
