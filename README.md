@@ -1,5 +1,7 @@
 # Attendance Management System in PHP 
 
+> YOU MUST A BASIC UNDERSTANDING OF HOW TO RUN PHP PROJECTS
+
 ### Steps to use:
 - Download the zip
 - In XAMPP phpMyAdmin import attendance.sql file
@@ -7,4 +9,4 @@
 - You are good to go!
 
 
-### Do not use UNETHICALLY
+Do not use UNETHICALLY
